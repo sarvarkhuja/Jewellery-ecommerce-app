@@ -1,5 +1,5 @@
 {
-  "name": "floema",
+  "name": "Jewellery ecommerce app",
   "version": "1.0.0",
   "scripts": {
     "backend:build": "node app.js",
@@ -8,7 +8,7 @@
     "frontend:dev": "webpack serve --progress --config webpack.config.development.js",
     "start": "concurrently --kill-others \"yarn backend:dev\" \"yarn frontend:dev\""
   },
-  "author": "Benjamin Rochez",
+  "author": "Sarvar Murad",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.0",
